@@ -1,0 +1,121 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OPCN | One Person Company Network</title>
+  <meta name="description" content="OPCN is a One Person Company Network where each builder orchestrates an OPC Agent ecosystem to ship faster with trusted, composable workflows." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&family=IBM+Plex+Sans:wght@300;400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg-mesh" aria-hidden="true"></div>
+  <div class="bg-pattern" aria-hidden="true"></div>
+
+  <header class="top reveal" data-delay="0">
+    <div class="logo">OPCN</div>
+    <div class="top-right">
+      <nav>
+        <a href="#vision" data-i18n="navVision">Vision</a>
+        <a href="#stack" data-i18n="navStack">Agent Stack</a>
+        <a href="#loop" data-i18n="navLoop">Execution Loop</a>
+        <a href="#join" data-i18n="navJoin">Join</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language switcher">
+        <button type="button" class="lang-btn active" data-lang="zh">中</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="kicker reveal" data-delay="1" data-i18n="kicker">One Person Company Network</p>
+      <h1 class="reveal" data-delay="2" data-i18n-html="heroTitle">一个人，就是一家公司。<br />一组 Agent，就是完整生态。</h1>
+      <p class="lead reveal" data-delay="3" data-i18n="heroLead">
+        OPCN 不是“单打独斗”，而是让每个 Builder 拥有自己的 OPC Agent 组织：
+        Strategy、Research、Build、Growth、Ops 并行协作，把想法转成持续交付能力。
+      </p>
+      <div class="cta reveal" data-delay="4">
+        <a class="btn solid" href="#stack" data-i18n="heroBtn1">查看生态结构</a>
+        <a class="btn wire" href="#loop" data-i18n="heroBtn2">了解运行机制</a>
+      </div>
+      <div class="stats reveal" data-delay="5">
+        <article>
+          <p data-i18n="stat1Label">Agent Pods / Builder</p>
+          <strong data-i18n="stat1Value">8-20</strong>
+        </article>
+        <article>
+          <p data-i18n="stat2Label">并行任务吞吐</p>
+          <strong data-i18n="stat2Value">24x</strong>
+        </article>
+        <article>
+          <p data-i18n="stat3Label">可复用能力包</p>
+          <strong data-i18n="stat3Value">1,600+</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="vision" class="panel reveal" data-delay="0">
+      <h2 data-i18n="visionTitle">OPCN 理念</h2>
+      <p data-i18n="visionBody">
+        从 “One Person Company” 出发，OPCN 把个人能力扩展成可编排、可继承、可验证的 Agent 网络。
+        重点不是“更会聊天的 AI”，而是“可运行的组织结构”。每个节点都带有角色、上下文、策略和产出标准。
+      </p>
+      <div class="tags">
+        <span data-i18n="tag1">Solo Founder OS</span>
+        <span data-i18n="tag2">Composable Agents</span>
+        <span data-i18n="tag3">Shared Memory</span>
+        <span data-i18n="tag4">Trust by Execution</span>
+      </div>
+    </section>
+
+    <section id="stack" class="stack">
+      <h2 class="reveal" data-delay="0" data-i18n="stackTitle">OPC Agent 生态分层</h2>
+      <div class="grid">
+        <article class="card reveal" data-delay="1">
+          <h3 data-i18n="card1Title">Operator Layer</h3>
+          <p data-i18n="card1Body">你定义目标、约束与优先级，作为唯一的战略控制面。</p>
+        </article>
+        <article class="card reveal" data-delay="2">
+          <h3 data-i18n="card2Title">Specialist Pods</h3>
+          <p data-i18n="card2Body">研究、产品、工程、内容、增长、客服等专业 Agent Pod 并行执行。</p>
+        </article>
+        <article class="card reveal" data-delay="3">
+          <h3 data-i18n="card3Title">Memory Fabric</h3>
+          <p data-i18n="card3Body">统一保存决策历史、实验结果、失败案例和复盘知识，避免重复踩坑。</p>
+        </article>
+        <article class="card reveal" data-delay="4">
+          <h3 data-i18n="card4Title">Protocol & Marketplace</h3>
+          <p data-i18n="card4Body">把成功工作流发布成可复用能力包，在网络内交换、复用、迭代。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="loop" class="loop">
+      <h2 class="reveal" data-delay="0" data-i18n="loopTitle">Execution Loop</h2>
+      <ol>
+        <li class="reveal" data-delay="1"><span>01</span><span data-i18n="loop1">Define: 用业务语言定义任务与结果指标。</span></li>
+        <li class="reveal" data-delay="2"><span>02</span><span data-i18n="loop2">Dispatch: 自动路由到最合适的 Agent Pod。</span></li>
+        <li class="reveal" data-delay="3"><span>03</span><span data-i18n="loop3">Verify: 通过测试、规则和人审门控确保质量。</span></li>
+        <li class="reveal" data-delay="4"><span>04</span><span data-i18n="loop4">Compound: 把通过验证的方法沉淀成能力资产并持续复利。</span></li>
+      </ol>
+    </section>
+
+    <section id="join" class="join reveal" data-delay="0">
+      <h2 data-i18n="joinTitle">Build Your OPC Stack</h2>
+      <p data-i18n="joinBody">在 OPCN 中，你不是“一个人做所有事”，你是在运营一个由 Agent 组成的公司级系统。</p>
+      <a class="btn solid" href="#" data-i18n="joinBtn">Start Your OPCN Node</a>
+    </section>
+  </main>
+
+  <footer class="foot reveal" data-delay="0">
+    <p data-i18n="footerLeft">OPCN Demo</p>
+    <p class="mono" data-i18n="footerRight">one-person-company://network/v1</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Frontend Design Director"
+  short_description: "High-end frontend UI direction; avoid generic SaaS style."
+  default_prompt: "Use $frontend-design to apply UI design rules for typography, color theme, motion, and backgrounds."
